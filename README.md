@@ -13,4 +13,4 @@
 
 
 ## 検証
-path_to_pj/lp/index.html
+path_to_pj/testpage/index.html
