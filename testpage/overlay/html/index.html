@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<META NAME="ROBOTS" CONTENT="NOYDIR">
+<META NAME="ROBOTS" CONTENT="NOODP">
+<title>overlay-html</title>
+
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="../lib/jquery-1.10.1.min.js"></script>
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+		});		
+	</script>
+			
+	<script>
+		$(window).load(function(){
+      $.fancybox.open($('.fancybox'));
+    });
+	</script>
+</head>
+<body>
+ヒキアゲールテスト<br>
+
+     <script type="text/javascript">
+        var sc_url = "http:" + "//so01.scope-on.com/log/view_through/media?co=SC000000000000030&m_code=poptamura";
+        var sc_opt = [];
+        sc_opt["ref"] = encodeURI(document.referrer);
+        for(var key in sc_opt){
+          if(typeof(sc_opt[key])=='string')
+            sc_url+='&'+key+'='+encodeURI(sc_opt[key]);
+        }
+        document.write(unescape("%3Cscript src='") +sc_url + unescape("' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+
+</body>
+</html>

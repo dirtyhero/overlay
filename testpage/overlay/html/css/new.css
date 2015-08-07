@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+/*
+Site Name: 
+Author: Toshihiko Nii
+*/
+
+#scr{
+	overflow: auto;
+	width: 920px;
+	height: 500px;
+	border: 1px solid #FF3399;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+#scr dt{
+	padding: 10px;
+	padding-bottom: 2px;
+	padding-left: 40px;
+	background-image: url(http://www.doctor-placenta.com/common/image/icon_q.png);
+	background-repeat: no-repeat;
+	background-position: 3px center	;
+}
+#scr dd{
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-top: 5px; 
+	padding-left: 40px;
+	background-image: url(http://www.doctor-placenta.com/common/image/icon_a.png);
+	background-repeat: no-repeat;
+	background-position: 3px top;
+}
+#box_480{
+	width: 480px;
+	float: left;
+}
+.bg_yellow{
+	background-color: #eadec5;
+}
+
+.bg_glay{
+	background-color: #F3F3F3;
+}
+#prasenta{
+	height: 587px;
+	width: 980px;
+}
+#prasenta_left{
+	height: 520px;
+	width: 329px;
+	padding-top: 30px;
+	padding-left: 20px;
+	background-image: url(../image/prasenta_bg_left.jpg);
+	background-repeat: no-repeat;
+}
+#prasenta_right{
+
+	width: 631px;
+	
+}
+#prasenta_right_box_1{
+	background-image: url(../image/prasenta_bg_right_top.jpg);
+	background-repeat: no-repeat;
+	height: 135px;
+	width: 421px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 160px;
+}
+#prasenta_right_box_2{
+	background-image: url(../image/prasenta_bg_right_middle.jpg);
+	background-repeat: no-repeat;
+	height: 135px;
+	width: 421px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 160px;
+	margin-top: 14px;
+}
+#prasenta_right_box_3{
+	background-image: url(../image/prasenta_bg_right_bottom.jpg);
+	background-repeat: no-repeat;
+	height: 155px;
+	width: 421px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 160px;
+	margin-top: 11px;
+}
+.text-green {
+	color:#6bc0a7;
+	font-weight: bold;
+	font-size: 150%;
+}
+.text-pink {
+	color: #a71a47;
+}
+.text-red {
+	color: #CC0000;
+}
+.text-brown {
+	color:#663300;
+}
+.text-gold {
+	color:#b48125;
+}
+.text13 {
+	font-size: 13px;
+}
+.text14 {
+	font-size: 14px;
+}
+.text15 {
+	font-size: 15px;
+}
+.text19 {
+	font-size: 19px;
+}
+.text22 {
+	font-size: 22px;
+}
+.text28 {
+	font-size: 28px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.mr10 {
+	margin-right: 10px;
+}
+.mr20 {
+	margin-right: 20px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.mb30{
+	margin-bottom: 30px;
+}
+.mb40 {
+	margin-bottom: 40px;
+}
+.mb50 {
+	margin-bottom: 50px;
+}
+.ml10{
+	margin-left: 10px;
+}
+.ml40{
+	margin-left: 40px;
+}
+.sp-right15 {
+	padding-right: 15px;
+}
+
+.sp-left155 {
+	padding-left: 155px;
+}
+.pt-20 {
+	padding-top: 20px;
+}
+.pb20 {
+	padding-bottom: 20px;
+}
+
+.pb30 {
+	padding-bottom: 30px;
+}
+.pl20 {
+	padding-left: 20px;
+}
+
+.mtb_30{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
