@@ -1,0 +1,8 @@
+@charset "UTF-8";
+#prasenta_right{
+	height:520px;
+	background:url(../img140826/prasenta_bg_right_bottom2.jpg) right 327px no-repeat;
+}
+#prasenta_left {
+	background-image:url(../img140826/prasenta_bg_left2.jpg);
+}

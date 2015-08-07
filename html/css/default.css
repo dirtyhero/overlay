@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+
+/* ===============================================
+
+	RESET
+  
+=============================================== */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+h1,h2,h3,h4,h5 {
+	line-height:1;
+	font-size:100%;
+	font-weight:normal;
+}
+
+img {
+	border:none;
+	vertical-align:bottom;
+}
+
+ul, ol, li, dl, dt, dd {
+	list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration:line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+	font-weight:normal;
+}
+
+caption, th, td {
+	text-align:left;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, textarea, select {
+    vertical-align:middle;
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+address {
+	font-style: normal;
+}
+
+
+/* ===============================================
+
+	FONT SIZE
+  
+==================================================
+
+Yahoo UI Library Fonts CSS
+Copyright (c) 2006, Yahoo! Inc. All rights reserved.
+http://developer.yahoo.com/yui/license.txt
+http://developer.yahoo.com/yui/fonts/
+
+   Font-size Adjustment
+
+   10px = 77%       |   11px = 85%
+   12px = 93%       |   13px = 100%
+   14px = 108%      |   15px = 116%
+   16px = 123.1%    |   17px = 131%
+   18px = 138.5%    |   19px = 146.5%
+   20px = 153.9%    |   21px = 161.6%
+   22px = 167%      |   23px = 174%
+   24px = 182%      |   25px = 189%
+   26px = 197%
+
+=============================================== */
+body {
+	font-size:13px;
+	line-height:1.5;
+	-webkit-text-size-adjust: none;
+}
+ 
+select, input, textarea, button {
+	font-size:13px;
+	-webkit-text-size-adjust: none;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+table {
+	font-size:inherit;
+	font:100%;
+}
+
+sup {
+	font-size:77%;
+	vertical-align:top;
+}
+
+
+
+/* ===============================================
+
+	FONT FAMILY
+  
+=============================================== */
+body {
+	/*font-family:Meiryo,'メイリオ','ＭＳ Ｐゴシック','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3',Verdana, Arial, Helvetica, sans-serif;*/
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}

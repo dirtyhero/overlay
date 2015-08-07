@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+/* ===============================================
+
+	FONT SIZE STYLE
+  
+=============================================== */
+.f-size26 { font-size: 197%!important; /* 26px */}
+.f-size24 { font-size: 182%!important; /* 24px */}
+.f-size22 { font-size: 167%!important; /* 22px */}
+.f-size20 { font-size: 153.9%!important; /* 20px */}
+.f-size18 { font-size: 138.5%!important; /* 18px */}
+.f-size16 { font-size: 123.1%!important; /* 16px */}
+.f-size14 { font-size: 108%!important; /* 14px */}
+.f-size11 { font-size: 87%!important; /* 11px */}
+.f-size10 { font-size: 77%!important; /* 10px */}
+
+/* ===============================================
+
+ FONT STYLE
+  
+=============================================== */
+.red { color: #f00!important;}
+.white { color: #fff!important;}
+.black { color: #000!important;}
+
+
+/* ===============================================
+
+	MARGIN STYLE
+  
+=============================================== */
+/* top */
+.mt5 { margin-top: 5px!important;}
+.mt10 { margin-top: 10px!important;}
+.mt15 { margin-top: 15px!important;}
+.mt20 { margin-top: 20px!important;}
+.mt25 { margin-top: 25px!important;}
+.mt30 { margin-top: 30px!important;}
+.mt35 { margin-top: 35px!important;}
+
+/* bottom */
+.mb5 { margin-bottom: 5px!important;}
+.mb10 { margin-bottom: 10px!important;}
+.mb15 { margin-bottom: 15px!important;}
+.mb20 { margin-bottom: 20px!important;}
+.mb25 { margin-bottom: 25px!important;}
+.mb30 { margin-bottom: 30px!important;}
+.mb35 { margin-bottom: 35px!important;}
+.mb40 { margin-bottom: 40px!important;}
+.mb45 { margin-bottom: 45px!important;}
+.mb50 { margin-bottom: 50px!important;}
+.mb55 { margin-bottom: 55px!important;}
+.mb60 { margin-bottom: 60px!important;}
+.mb65 { margin-bottom: 65px!important;}
+
+/* right */
+.mr5 { margin-right: 5px!important;}
+.mr10 { margin-right: 10px!important;}
+.mr15 { margin-right: 15px!important;}
+.mr20 { margin-right: 20px!important;}
+.mr25 { margin-right: 25px!important;}
+.mr30 { margin-right: 30px!important;}
+.mr35 { margin-right: 35px!important;}
+
+/* left */
+.ml5 { margin-left: 5px!important;}
+.ml10 { margin-left: 10px!important;}
+.ml15 { margin-left: 15px!important;}
+.ml20 { margin-left: 20px!important;}
+.ml25 { margin-left: 25px!important;}
+.ml30 { margin-left: 30px!important;}
+.ml35 { margin-left: 35px!important;}
+
+
+/* ---------- É}Å[ÉWÉìÇÃè¡ãé ---------- */
+.nomt { margin-top: 0!important;}
+.nomb { margin-bottom: 0!important;}
+.noml { margin-left: 0!important;}
+.nomr { margin-right: 0!important;}
+
+
+/* ===============================================
+
+	BORDER STYLE
+  
+=============================================== */
+.nobt { border-top: none!important; }
+.nobb { border-bottom: none!important; }
+.nobl { border-left: none!important; }
+.nobr { border-right: none!important; }
+.nob { border: none!important; }
+
+
+/* ===============================================
+
+	FLOAT STYLE
+  
+=============================================== */
+.right { float: right!important;}
+.left { float: left!important;}
+.clear { clear: both!important;}
+
+
+/* ===============================================
+
+	TEXT ALIGN STYLE
+  
+=============================================== */
+.txtRight { text-align: right!important;}
+.txtLeft { text-align: left!important;}
+.txtCenter { text-align: center!important;}
+
+
+
+/* ===============================================
+
+	LIST STYLE
+  
+=============================================== */
+ul.disc li {
+	list-style-type: disc;
+	margin-left: 1.5em;
+	*margin-left: 1.6em;
+}
+
+ol.decimal li {
+	list-style-type: decimal;
+	margin-left: 2em;
+	*margin-left: 2.3em;
+}
+
+
+
+/* ===============================================
+
+	MOUSEOVER
+  
+=============================================== */
+.onAll a:hover {
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity:0.7;
+	-ms-filter: "alpha(opacity=70)";
+}
+
+a:hover .on {
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity:0.7;
+	-ms-filter: "alpha(opacity=70)";
+}
+
+
+/* ===============================================
+
+	TRACE
+  
+=============================================== */
+#trace {
+	padding: 10px;
+	background: #000;
+	color: #fff;
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#traceCloseBtn {
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	cursor: pointer;
+}
+
+
+
+/* ===============================================
+
+	CLEAR FIX
+  
+=============================================== */
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+	content:"";
+	display:block;
+	overflow:hidden;
+}
+.clearfix:after {
+	clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+	zoom:1;
+}
